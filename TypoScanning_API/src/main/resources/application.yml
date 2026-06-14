@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/typoscanning
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+server:
+  port: 8080
+
+gemini:
+  api:
+    key: ${GEMINI_API_KEY}
+    url: ${GEMINI_API_URL}

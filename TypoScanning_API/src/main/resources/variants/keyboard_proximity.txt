@@ -1,0 +1,5 @@
+a:s,q,z
+e:w,r,d,3
+i:u,o,k,8
+o:i,p,k,9
+s:a,d,z,x
